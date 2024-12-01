@@ -5,6 +5,7 @@ This script automates network or node operations for Nodepay Network.
 
 ## Features
 - **Automated node interaction**
+- **Automated Scrape Token**
 - **Multi-account session**
 - **Proxy and non-proxy support**
 
