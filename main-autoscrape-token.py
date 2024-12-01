@@ -187,7 +187,7 @@ class LoginClient:
 async def main():
     clear_screen()
     print(f"{Fore.MAGENTA}BOT NODEPAY TOKEN SCRAPE !!{Style.RESET_ALL}")
-    print(f"{Fore.GREEN}AUTHOR : NOFAN RAMBE\n{Style.RESET_ALL}")
+    print(f"{Fore.GREEN}AUTHOR : NOFAN RAMBE{Style.RESET_ALL}")
     print(f"{Fore.GREEN}WELCOME & ENJOY SIR!\n{Style.RESET_ALL}")
     
     # Ask user for captcha service and API key
