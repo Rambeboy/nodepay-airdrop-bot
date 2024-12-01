@@ -1,4 +1,4 @@
-# NODEPAY NETWORK BOT
+## NODEPAY NETWORK BOT
 
 ## Description
 This script automates network or node operations for Nodepay Network.
@@ -30,10 +30,10 @@ This script automates network or node operations for Nodepay Network.
 
 1. Register nodepay account first, if you dont have you can register [here](https://app.nodepay.ai/register), I recomended to `download extension`, `activate your account`, complete the `Proof of Humanhood` and `connect your wallet` first before running the script because this important for `Nodepay TGE`.
 2. Set and Modify `user.txt` before running the script. Below how to setup this file, put your np_token in the text file, example below:
-	```
-	eyJhbGcixxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-	eyJ23wixxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-	```
+   ```
+   eyJhbGcixxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+   eyJ23wixxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+   ```
 To get your token, follow this step:
 - Login to your grass account in https://app.nodepay.ai/dashboard, make sure you is in this link before go to next step
 - Go to inspect element, press F12 or right-click then pick inspect element in your browser
@@ -43,6 +43,7 @@ To get your token, follow this step:
   localStorage.getItem('np_token')
   ```
 3. If you want to use proxy, edit the `proxy.txt` with your proxy.
+
    ```
    ip:port
    username:password@ip:port
@@ -51,11 +52,12 @@ To get your token, follow this step:
    socks5://ip:port
    socks5://username:password@ip:port
    ```
-4. Run the script:
+
+5. Run the script:
 	```bash
 	python main.py
 	```
-5. When running the script, answer if you want to use proxy and how much proxy you want to use, it will look like this:
+6. When running the script, answer if you want to use proxy and how much proxy you want to use, it will look like this:
 	```
  	Do you want to use proxies? (y/n): 
 
