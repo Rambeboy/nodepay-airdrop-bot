@@ -8,3 +8,4 @@ loguru
 requests
 curl_cffi
 python-shell
+fake_useragent
