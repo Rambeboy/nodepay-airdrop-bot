@@ -22,8 +22,10 @@ PING_INTERVAL = 15
 RETRIES = 10
 
 DOMAIN_API = {
-    "SESSION": "http://api.nodepay.ai/api/auth/session",
-    "PING": "https://nw.nodepay.org/api/network/ping"
+    "SESSION": "https://api.nodepay.ai/api/auth/session",
+    "PING": [ 
+        "https://nw.nodepay.org/api/network/ping" 
+    ]
 }
 
 CONNECTION_STATES = {
