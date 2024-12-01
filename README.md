@@ -58,13 +58,14 @@ To get your token, follow this step:
 	python main.py
 	```
 6. When running the script, answer if you want to use proxy and how much proxy you want to use, it will look like this:
-	```
- 	Do you want to use proxies? (y/n): 
+   ```
+   Do you want to use proxies? (y/n):
+   ```
 
- 	```
-	```
-	How many proxies per account do you want to use?: 
-	```
+   ```
+   How many proxies per account do you want to use?:
+   ```
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
