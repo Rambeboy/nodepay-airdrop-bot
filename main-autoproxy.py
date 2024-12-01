@@ -8,7 +8,7 @@ from loguru import logger
 from fake_useragent import UserAgent
 
 def show_warning():
-    confirm = input("By using this tool means you understand the risks. do it at your own risk! \nWelcome to Bot by Nofan Rambe \nPress Enter to continue or Ctrl+C to cancel... ")
+    confirm = input("By using this tool means you understand the risks. do it at your own risk! \nPress Enter to continue or Ctrl+C to cancel... ")
 
     if confirm.strip() == "":
         print("Continuing...")
