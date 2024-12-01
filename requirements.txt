@@ -6,3 +6,5 @@ InquirerPy
 nest_asyncio
 loguru
 requests
+curl_cffi
+python-shell
