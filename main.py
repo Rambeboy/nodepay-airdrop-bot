@@ -18,14 +18,12 @@ def truncate_token(token):
 logger.remove()
 logger.add(lambda msg: print(msg, end=''), format="{message}", level="INFO")
 
-PING_INTERVAL = 60
-RETRIES = 60
+PING_INTERVAL = 15
+RETRIES = 10
 
 DOMAIN_API = {
     "SESSION": "http://api.nodepay.ai/api/auth/session",
-    "PING": [
-        "https://nw.nodepay.org/api/network/ping",
-    ]
+    "PING": "https://nw.nodepay.org/api/network/ping"
 }
 
 CONNECTION_STATES = {
