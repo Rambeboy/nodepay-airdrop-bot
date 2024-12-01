@@ -27,6 +27,19 @@ This script automates network or node operations for Nodepay Network.
    pip install -r requirements.txt
    ```
 
+### RUN AUTO SCRAPE TOKEN
+
+1. Enter your email and password in the `accounts.txt` folder.
+
+   ```bash
+   nano accounts.txt
+   ```
+3. Run bot auto scrape token:
+   ```bash
+   python main-autoscrape-token.py
+   ```
+4. Your token will automatically be saved in the `token.txt` folder.
+
 ## Usage
 
 1. Register nodepay account first, if you dont have you can register [here](https://app.nodepay.ai/register), I recomended to `download extension`, `activate your account`, complete the `Proof of Humanhood` and `connect your wallet` first before running the script because this important for `Nodepay TGE`.
