@@ -8,9 +8,9 @@ from colorama import Fore, Style, init
 
 init(autoreset=True)
 
-print("\n" + " " * 29 + f"{Fore.CYAN}NODEPAY NETWORK BOT{Style.RESET_ALL}")
-print(" " * 31 + f"{Fore.GREEN}Author : Nofan Rambe{Style.RESET_ALL}")
-print(" " * 29 + f"{Fore.CYAN}Welcome & Enjoy Sir!{Style.RESET_ALL}" + "\n")
+print("\n" + " " * 32 + f"{Fore.CYAN}NODEPAY NETWORK BOT{Style.RESET_ALL}")
+print(" " * 32 + f"{Fore.GREEN}Author : Nofan Rambe{Style.RESET_ALL}")
+print(" " * 32 + f"{Fore.CYAN}Welcome & Enjoy Sir!{Style.RESET_ALL}" + "\n")
 
 def truncate_token(token):
     return f"{token[:5]}--{token[-5:]}"
