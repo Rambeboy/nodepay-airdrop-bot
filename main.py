@@ -24,6 +24,7 @@ RETRIES = 10
 DOMAIN_API = {
     "SESSION": "https://api.nodepay.ai/api/auth/session",
     "PING": [ 
+        "http://18.142.29.174/api/network/ping",
         "https://nw.nodepay.org/api/network/ping" 
     ]
 }
