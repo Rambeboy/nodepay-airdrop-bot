@@ -7,5 +7,5 @@ nest_asyncio
 loguru
 requests
 curl_cffi
-python-shell
+python-dateutil
 fake_useragent
