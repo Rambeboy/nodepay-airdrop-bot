@@ -4,6 +4,8 @@
 This script automates network or node operations for Nodepay Network.
 
 ## Features
+
+- **Automated Get Token**
 - **Automated node interaction**
 - **Automated Scrape Token**
 - **Multi-account session**
@@ -38,7 +40,12 @@ This script automates network or node operations for Nodepay Network.
    ```bash
    python main-autoscrape-token.py
    ```
-4. Your token will automatically be saved in the `token.txt` folder.
+   or
+   ```bash
+   python get-token.py
+   ```
+   
+5. Your token will automatically be saved in the `token.txt` folder.
 
 ## Usage
 
