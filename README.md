@@ -5,9 +5,9 @@ This script automates network or node operations for Nodepay Network.
 
 ## Features
 
-- **Automated Get Token**
 - **Automated node interaction**
-- **Automated Scrape Token**
+- **Automated Claim Mission, Badge and Daily Point**
+- **Automated Answer Surveys**
 - **Multi-account session**
 - **Proxy and non-proxy support**
 
@@ -28,24 +28,6 @@ This script automates network or node operations for Nodepay Network.
    ```bash
    pip install -r requirements.txt
    ```
-
-### RUN AUTO SCRAPE TOKEN
-
-1. Enter your email and password in the `accounts.txt` folder.
-
-   ```bash
-   nano accounts.txt
-   ```
-3. Run bot auto scrape token:
-   ```bash
-   python main-autoscrape-token.py
-   ```
-   or
-   ```bash
-   python get-token.py
-   ```
-   
-5. Your token will automatically be saved in the `token.txt` folder.
 
 ## Usage
 
@@ -75,10 +57,10 @@ To get your token, follow this step:
    ```
 
 5. Run the script:
-	```bash
-	python main.py
-	```
-6. When running the script, answer if you want to use proxy and how much proxy you want to use, it will look like this:
+   ```bash
+   python main.py
+   ```
+7. When running the script, answer if you want to use proxy and how much proxy you want to use, it will look like this:
    ```
    Do you want to use proxies? (y/n):
    ```
@@ -90,6 +72,3 @@ To get your token, follow this step:
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-## Note
-This script only for testing purpose, using this script might violates ToS and may get your account permanently banned.
