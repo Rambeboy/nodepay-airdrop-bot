@@ -1,3 +1,0 @@
-email1@example.com:password1
-email2@example.com:password2
-email3@example.com:password3
